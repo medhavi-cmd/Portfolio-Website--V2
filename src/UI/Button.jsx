@@ -5,8 +5,8 @@ const Button = ({text, variant = "primary", icon, onClick}) => {
     "flex items-center gap-2 px-6 py-3 rounded-xl text-sm font-medium transition-all duration-300";
 
     const variants = {
-    primary: "bg-cyan-500 text-black hover:bg-cyan-400 shadow-lg shadow-cyan-500/20",
-    outline:  "border border-white/20 text-white hover:bg-white/10",
+    primary: "bg-cyan-500 text-white hover:bg-cyan-400 shadow-lg shadow-cyan-500/20",
+    outline:  "border border-white/20 text-white  shadow-lg shadow-white/10 hover:bg-white/10",
     };
 
 
